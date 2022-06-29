@@ -1,0 +1,250 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  opacity: 0;
+}
+.navbar {
+  background: #1c1c1c;
+}
+.nav-item {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+}
+.tittle-name {
+  font-size: 2rem;
+}
+
+.cover {
+  background: url(back.jpg);
+
+  width: 100%;
+  height: 100%;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.cover h1 {
+  font-size: 6.429rem;
+  letter-spacing: 1.25px;
+  color: #fff;
+  font-weight: 500;
+  text-shadow: 0 0 8px rgb(0 0 0 / 60%);
+  text-align: center;
+  margin: 0 0 20px;
+  padding: 0;
+}
+.cover h2 {
+  font-size: 5rem;
+  letter-spacing: 1.25px;
+  color: #fff;
+  font-weight: 400;
+  text-shadow: 0 0 8px rgb(0 0 0 / 60%);
+  text-align: center;
+  margin: 0 0 50px;
+}
+.lead {
+  color: #fff;
+  font-weight: 400;
+  text-shadow: 0 0 6px rgb(0 0 0 / 75%);
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 50px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.wedo .firstfea span {
+  position: absolute;
+  top: 0.5rem;
+  left: -0.2rem;
+  display: inline-block;
+  color: #000;
+  font-size: 50px;
+  transform: none !important;
+}
+.wedo .firstfea h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 16px;
+  margin-left: 2rem;
+}
+h2.ourwork {
+  font-weight: 600;
+  position: relative;
+  text-align: center;
+  font-size: 4.286rem;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+h2.pro {
+  position: relative;
+  text-align: center;
+  font-size: 4.286rem;
+  font-weight: 500;
+  margin-bottom: 50px;
+  color: #fff;
+}
+h2.cli {
+  font-weight: 600;
+  position: relative;
+  text-align: center;
+  font-size: 2.571rem;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.clients img {
+  padding: 10px;
+}
+.cnt-bl {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+img {
+  vertical-align: middle;
+}
+h2.ourt {
+  font-weight: 600;
+  position: relative;
+  text-align: center;
+  font-size: 2.5rem;
+
+  margin-bottom: 40px;
+}
+.team .img-circle {
+  max-height: 159px;
+  max-width: 159px;
+  border-radius: 50%;
+}
+img.up {
+  position: relative;
+  bottom: 1rem;
+  height: 10.5rem;
+}
+.team .t-name {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+
+  margin: 0px;
+  padding: 20px 0 10px;
+  font-weight: 600;
+}
+.team .t-type {
+  font-size: 1.143rem;
+
+  text-align: center;
+  padding: 0 0 5px;
+  font-style: italic;
+}
+.team p {
+  text-align: center;
+}
+body p {
+  margin-bottom: 25px;
+}
+p {
+  overflow-wrap: break-word;
+}
+h2.tit:before {
+  left: 0;
+}
+
+h2.tit:before {
+  background: #666;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 45%;
+  width: 100%;
+}
+h2.tit {
+  font-weight: 600;
+  position: relative;
+  text-align: center;
+  font-size: 2.5rem;
+
+  margin-bottom: 40px;
+}
+h2.tit:after {
+  left: 0;
+}
+h2.tit:after {
+  background: #666;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 55%;
+  width: 100%;
+}
+h2.tit span {
+  background: #1c1c1c;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+.dark {
+  background-color: #1c1c1c;
+  color: #888;
+}
+.contact h3 {
+  margin-top: 0;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 1.714rem;
+  color: #fff;
+}
+.contact .info span {
+  padding-right: 6px;
+  display: inline-block;
+}
+.en {
+  position: relative;
+  top: 0.5rem;
+}
+@media (max-width: 767px) {
+  .cover {
+    background-attachment: scroll !important;
+    background-size: cover !important;
+    background-position: center top !important;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-6 {
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-12 {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .cover h2 {
+    font-size: 2rem !important;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-2 {
+    width: 16.66666667%;
+  }
+}
